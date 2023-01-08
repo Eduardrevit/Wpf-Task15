@@ -1,0 +1,199 @@
+﻿<Window x:Class="Wpf_Task15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Task15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="2000" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph Background="AntiqueWhite">
+                    <Floater Width="300" HorizontalAlignment="Left" >
+                        <BlockUIContainer >
+                            <Image Source="1.JPG"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    
+                    <Bold Foreground="#FFA0481F" FontSize="25">Пётр I Алексеевич</Bold> 
+                </Paragraph>
+
+                <Paragraph>
+                    <Bold>Пётр Алексеевич </Bold> прозванный <Bold>Великим </Bold>
+                    <Italic>(<Underline>30 мая</Underline> [9 июня] 1672 года —<Underline>28 января </Underline> [8 февраля] 1725 года)
+                    </Italic> — последний царь всея Руси (с 1682 года) и первый Император Всероссийский (с 1721 года).
+                </Paragraph>
+
+                <Paragraph>
+                 Представитель династии Романовых. Был провозглашён царём в 10-летнем возрасте при регентше Софье Алексеевне, стал править самостоятельно с 1689 года. 
+                Формальным соправителем Петра был его брат Иван (до своей смерти в 1696 году).  
+                </Paragraph>
+
+                <Paragraph>
+                    С юных лет проявляя интерес к наукам и заграничному образу жизни, Пётр первым из русских царей совершил длительное
+                    путешествие в страны Западной Европы. 
+                    По возвращении из него, в 1698 году, Пётр развернул масштабные реформы российского государства и общественного уклада. 
+                </Paragraph>
+
+                <Paragraph Background="AntiqueWhite">
+                    
+                    <Bold  FontSize="20" Foreground="#FF9E0E07">
+                        Дети Петра Первого
+                    </Bold>
+                </Paragraph>
+
+                <Table>
+
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow Background="#FFF7F0FF" FontSize="16">
+                            <TableCell>
+                                <Paragraph>Дети</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Дата рождения</Bold>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Дата смерти</Bold>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Примечания</Bold>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow FontSize="14" Background="AliceBlue">
+                            <TableCell>
+                                <Paragraph>Алексей Петрович</Paragraph>
+                            </TableCell>
+
+                            <TableCell>
+                                <Paragraph>18 (28) февраля 1690</Paragraph>
+                            </TableCell>
+
+                            <TableCell>
+                                <Paragraph>26 июня (7 июля) 1718</Paragraph>
+                            </TableCell>
+
+                            <TableCell>
+                                <Paragraph>Считался официальным наследником престола до ареста.</Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow FontSize="14" >
+                            <TableCell>
+                                <Paragraph>Александр</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>3 (13) октября 1691</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>14 (24) мая 1692</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>Александр Петрович умер в 1692 г.</Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow FontSize="14" Background="AliceBlue">
+                            <TableCell>
+                                <Paragraph>Павел</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>1693</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>1693</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>Родился и умер в 1693 году, отчего иногда существование третьего сына от Евдокии Лопухиной подвергается сомнению</Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow FontSize="14" >
+                            <TableCell>
+                                <Paragraph>Екатерина</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>1707</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>1708</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>Незаконнорождённая; умерла во младенчестве</Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow FontSize="14" Background="AliceBlue">
+                            <TableCell>
+                                <Paragraph>Анна Петровна</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>7 (18) февраля 1708</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>15 (26) мая 1728</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>В 1725 вышла замуж за германского герцога Карла-Фридриха. Уехала в Киль, где родила сына Карла Петера Ульриха (впоследствии российский император Пётр III).</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                
+                <Paragraph>
+
+                    <Bold>
+                        Пётр I в очерках и художественных произведениях:
+                    </Bold>
+                </Paragraph>
+                <List MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            М. В. Ломоносов. «Пётр Великий» (неоконченная поэма), 1760 год.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            В. Г. Бергман. «История Петра Великого», 1833 год.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            А. С. Пушкин. «История Петра I» (неоконченный исторический труд), 1835 год.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            А. С. Пушкин. «Арап Петра Великого» (исторический роман), 1837 год.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Д. С. Мережковский. «Антихрист. Пётр и Алексей», исторический роман, заключительный в трилогии «Христос и Антихрист», 1903—1904 годы.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            А. Н. Толстой. Исторический роман «Пётр Первый» (кн. 1—3, 1929—1945, не окончен)</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Юрий Тынянов. Повесть «Восковая персона» (1931)</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            А. М. Волков. «Два брата» (исторический роман), 1950 год.</Paragraph>
+                    </ListItem>
+                </List>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
